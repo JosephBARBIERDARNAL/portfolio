@@ -1,7 +1,7 @@
 // frontend/src/App.js
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/home';
 import Services from './pages/services/services';
 import About from './pages/about/about';
@@ -15,9 +15,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" exact element={<Home/>} />
-        <Route path="/services" element={<Services/>} />
-        <Route path="/about" element={<About/>} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
         <Route path="/seuls-sous-les-pins" element={<SeulsSousLesPins />} />
         <Route path="/ai-talks" element={<AITalks />} />
         <Route path="/cieri" element={<Cieri />} />
