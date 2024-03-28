@@ -21,8 +21,8 @@ const SeulsSousLesPins = () => {
                             <p>His project is named <i>Memories of Lazarus</i> and combines photograhy with AI models (in particular diffusion models).
                             </p>
                             <div class="centered-container">
-                                <img src="../img/seulssouslespins.jpeg" alt="seuls sous les pins" class="small-image" />
-                                <img src="../img/exposureberlin.jpeg" alt="exposure" class="small-image" />
+                                <img src={`${process.env.PUBLIC_URL}/img/seulssouslespins.jpeg`} alt="seuls sous les pins" class="small-image" />
+                                <img src={`${process.env.PUBLIC_URL}/img/exposureberlin.jpeg`} alt="exposure" class="small-image" />
                             </div>
                             <p className='descriptionImage'>
                                 The French Institude in Berlin during the exhibition
