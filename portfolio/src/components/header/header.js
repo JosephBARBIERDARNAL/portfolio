@@ -1,16 +1,17 @@
 
 
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 import './header.css';
 
 function Header() {
     return (
         <header>
             <div className="header-container">
-                <a href='/'><h1 class='name'>Joseph Barbier</h1></a>
+                <Link to='/'><h1 className='name'>Joseph Barbier</h1></Link>
                 <nav>
-                    <a href="/services"><b>Services</b></a>
-                    <a href="/about"><b>About</b></a>
+                    <Link to="/services"><b>Services</b></Link>
+                    <Link to="/about"><b>About</b></Link>
                 </nav>
             </div>
         </header>
@@ -18,3 +19,4 @@ function Header() {
 }
 
 export default Header;
+

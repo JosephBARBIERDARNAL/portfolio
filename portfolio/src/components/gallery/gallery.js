@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './gallery.css'; 
 
 const projects = [
@@ -38,7 +39,7 @@ const ProjectItem = ({ title, description, imageUrl, projectLink }) => {
             <div className="project-info">
                 <h3>{title}</h3>
                 <p>{description}</p>
-                <a href={projectLink}>View Project</a>
+                <Link to={projectLink}>View Project</Link>
             </div>
         </div>
     );

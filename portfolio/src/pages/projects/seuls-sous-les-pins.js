@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
@@ -13,9 +14,9 @@ const SeulsSousLesPins = () => {
                 <div className="content-container">
                     <div className="text-content">
                         <div className="projectDescription">
-                            <p>In summer 2023, I've met <a href='http://mauricelebrun.com' target="_blank" rel="noreferrer">Maurice Lebrun</a>, a French photographer (among others). He told me he'd like it to be possible to <b>talk to Henri Rousseau</b> during one of his exhibition.
+                            <p>In summer 2023, I've met <Link to='http://mauricelebrun.com' target="_blank" rel="noreferrer">Maurice Lebrun</Link>, a French photographer (among others). He told me he'd like it to be possible to <b>talk to Henri Rousseau</b> during one of his exhibition.
                             </p>
-                            <p>On the occasion of one of his photo exhibition at the French Institute in Berlin, <a href='http://mauricelebrun.com' target="_blank" rel="noreferrer">Maurice Lebrun</a> and I created a staging that allows us to talk with the late <b>Douanier Rousseau</b>. Maurice has been working on creating photos inspired by the Douanier Rousseau's paintings.
+                            <p>On the occasion of one of his photo exhibition at the French Institute in Berlin, <Link to='http://mauricelebrun.com' target="_blank" rel="noreferrer">Maurice Lebrun</Link> and I created a staging that allows us to talk with the late <b>Douanier Rousseau</b>. Maurice has been working on creating photos inspired by the Douanier Rousseau's paintings.
                             </p>
                             <p>His project is named <i>Memories of Lazarus</i> and combines photograhy with AI models (in particular diffusion models).
                             </p>

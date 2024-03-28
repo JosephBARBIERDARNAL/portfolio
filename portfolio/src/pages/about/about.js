@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
@@ -14,7 +15,7 @@ function About() {
 
                 <h2 id="about">Experiences</h2><hr />
                 <p>
-                    I'm currently a full-time intern in data science, visualization and software with <a href='https://www.yan-holtz.com' target='_blank' rel='noreferrer'>Yan Holtz</a>, but I've also worked on other things. Here you can find my resume.
+                    I'm currently a full-time intern in data science, visualization and software with <Link to='https://www.yan-holtz.com' target='_blank' rel='noreferrer'>Yan Holtz</Link>, but I've also worked on other things. Here you can find my resume.
                 </p>
                 <Timeline />
 
