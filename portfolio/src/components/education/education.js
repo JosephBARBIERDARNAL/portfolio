@@ -27,9 +27,9 @@ const EducationComponent = () => {
 
     const toggleDescription = (id) => {
         if (selectedDegree === id) {
-            setSelectedDegree(null); // Clicking the same card will hide the description
+            setSelectedDegree(null);
         } else {
-            setSelectedDegree(id); // Show description for the clicked card
+            setSelectedDegree(id);
         }
     };
 

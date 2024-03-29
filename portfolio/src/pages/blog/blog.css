@@ -1,0 +1,39 @@
+/* blog.css */
+
+.articles-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.article-card {
+    background: #f8f5e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.article-content {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+hr {
+    margin-top: 10px;
+    border-color: #eeeeee;
+    /* Soften the hr color to fit the minimalistic theme */
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
+import Spacing from '../../components/spacing';
 import './services.css';
 
 function Services() {
@@ -36,6 +37,14 @@ function Services() {
                         <img src={`${process.env.PUBLIC_URL}/img/fiscal-sponsor.png`} alt="fiscal sponsorship" />
                         <p>Top Fiscal Sponsors, made for the TidyTuesday challenge</p>
                     </div>
+                </div>
+                <Spacing count={5} />
+                <div className="image-gallery">
+                    <div className="image-item">
+                        <img src={`${process.env.PUBLIC_URL}/img/energy-consumption-france.png`} alt="energy consumption" />
+                        <p>Energy consumption in France</p>
+                    </div>
+                    <div className="image-item"></div>
                 </div>
 
 
