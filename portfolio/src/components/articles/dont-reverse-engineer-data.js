@@ -65,7 +65,7 @@ const ReverseEngData = () => {
                             <p>
                                 For example, let's say we want to create a machine learning
                                 model that predicts if a doctor is a good doctor or not. Our
-                                dataset contains info one medical visits, the doctor that
+                                dataset contains info on medical visits, the doctor that
                                 performed it, the patient, the date, the diagnosis, the outcome
                                 after X days, etc. We should be able to say that one row of the
                                 dataset represents one medical visit.

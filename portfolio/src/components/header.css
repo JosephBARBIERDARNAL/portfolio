@@ -58,3 +58,33 @@ nav a:hover {
 .logo:hover {
     transform: scale(1.1);
 }
+
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    .header-container {
+        width: 90%;
+    }
+
+    h1.name {
+        font-size: 30px;
+    }
+
+    nav a {
+        font-size: 20px;
+        padding: 8px 12px;
+    }
+
+    .logos {
+        margin-top: 5px;
+    }
+
+    .logo {
+        height: 50px;
+    }
+    
+}

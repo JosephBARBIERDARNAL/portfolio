@@ -21,3 +21,16 @@ footer {
 .footer-container a {
     text-decoration: none;
 }
+
+
+
+
+@media screen and (max-width: 768px){
+    footer {
+        padding: 10px;
+    }
+
+    .social-logo {
+        width: 40px;
+    }
+}

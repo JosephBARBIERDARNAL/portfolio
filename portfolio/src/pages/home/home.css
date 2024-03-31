@@ -22,3 +22,17 @@ body {
     align-items: flex-start;
 }
 
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .content-container {
+        flex-direction: column;
+    }
+    .profile-image {
+        margin: 0 auto;
+        width: 150px;
+    }
+}

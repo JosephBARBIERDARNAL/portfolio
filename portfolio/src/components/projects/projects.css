@@ -24,3 +24,14 @@ p.descriptionImage {
 .projectDescription p {
     margin-bottom: 25px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .small-image {
+        width: 100%;
+    }
+    p.descriptionImage {
+        margin-top: 0;
+    }
+    
+}
