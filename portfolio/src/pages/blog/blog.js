@@ -19,9 +19,6 @@ function Blog() {
                         <p>
                             I already write articles about statistics, on <Link to='https://statisticaljourney.com' target='_blank' rel='noreferrer'>Statistical Journey</Link>, but you can find here less specialized articles. Here I write more about how I understand data analysis and how we use those tools.
                         </p>
-                        <p>
-                            This is currently a work in progress, but I will soon publish my first article here!
-                        </p>
                         <Spacing count={3} />
                         
                         <div className="articles-container">

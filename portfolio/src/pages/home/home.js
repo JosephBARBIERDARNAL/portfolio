@@ -29,7 +29,7 @@ const Home = () => {
                             </ul>
                         </p>
                     </div>
-                    <img src={`${process.env.PUBLIC_URL}/img/joseph.png`} alt="Joseph Barbier" className="profile-image" />
+                    <img src={`${process.env.PUBLIC_URL}/img/josephcomp.png`} alt="Joseph Barbier" className="profile-image" />
                 </div>
                 
                 <Spacing count={3} />
