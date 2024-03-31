@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-import Header from '../../components/header/header';
-import Footer from '../../components/footer/footer';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
 import Timeline from '../../components/timeline/timeline';
 import ProjectGallery from '../../components/gallery/gallery';
 import EducationComponent from '../../components/education/education';
@@ -55,6 +55,8 @@ const Home = () => {
                     I did my whole education at Bordeaux University and I will soon have finished my studies!
                 </p>
                 <EducationComponent />
+
+                <Spacing count={3} />
 
             </div> 
             <Footer />
