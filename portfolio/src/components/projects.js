@@ -26,6 +26,13 @@ const projects = [
         description: 'A website to learn about statistics with non-technical and narrative style',
         imageUrl: `${process.env.PUBLIC_URL}/img/statisticaljourney.png`,
         projectLink: '/statistical-journey'
+    },
+    {
+        id: 5,
+        title: 'Data Visualization',
+        description: 'Creating visualizations for data analysis and storytelling',
+        imageUrl: `${process.env.PUBLIC_URL}/img/datavizs2.png`,
+        projectLink: '/services'
     }
 ];
 

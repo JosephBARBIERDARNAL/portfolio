@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
-import Spacing from '../../components/spacing';
 import './services.css';
 
 function Services() {
@@ -38,13 +37,18 @@ function Services() {
                         <p>Top Fiscal Sponsors, made for the TidyTuesday challenge</p>
                     </div>
                 </div>
-                <Spacing count={5} />
+
                 <div className="image-gallery">
                     <div className="image-item">
                         <img src={`${process.env.PUBLIC_URL}/img/energy-consumption-france.png`} alt="energy consumption" />
                         <p>Energy consumption in France</p>
                     </div>
-                    <div className="image-item"></div>
+                    <div className="image-item">
+                        <div className="image-item">
+                        <img src={`${process.env.PUBLIC_URL}/img/confusion_matrix.png`} alt="fake news gpt" />
+                        <p>ChatGPT on distinguishing fake news</p>
+                    </div>
+                    </div>
                 </div>
 
 

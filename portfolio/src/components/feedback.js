@@ -10,7 +10,7 @@ const Feeback = () => {
                 Having a different opinion? A nuance to bring? A question to ask?
             </p>
             <p>
-                I'm always looking for feedback and/or contributions. The best way to share your thoughts is to open an issue on the <Link to='https://github.com/JosephBARBIERDARNAL/portfolio/issues'>GitHub repository</Link> of the project.
+                I'm always looking for feedback and/or contributions. The best way to share your thoughts is to open an issue on the <Link to='https://github.com/JosephBARBIERDARNAL/portfolio/issues'>GitHub repository</Link> of the site.
             </p>
         </div>
     );
