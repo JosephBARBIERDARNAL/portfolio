@@ -32,7 +32,7 @@ const projects = [
         title: 'Data Visualization',
         description: 'Creating visualizations for data analysis and storytelling',
         imageUrl: `${process.env.PUBLIC_URL}/img/datavizs2.png`,
-        projectLink: '/services'
+        projectLink: '/visualization'
     }
 ];
 

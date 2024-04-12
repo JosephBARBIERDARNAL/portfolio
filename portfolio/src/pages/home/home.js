@@ -36,7 +36,7 @@ const Home = () => {
 
                 <h2 id="contact">About my work</h2><hr />
                 <p>
-                    My past experiences are diverse: I've did a bit of research, working in a start-up and some freelancing.
+                    My past experiences are diverse: I've did a bit of research, working in a start-up and some freelancing. Today I focus on open-source projects and data analysis.
                 </p>
                 <Timeline />
 

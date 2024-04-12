@@ -27,7 +27,7 @@ const experiences = [
         id: 1,
         title: 'Data analyst / Research intern at CIERI',
         period: 'Apr 2022 - Jul 2022',
-        details: "I worked for the CIERI research center with Thomas Salanova on the relationship between socio-economic status and cancer. The work consisted mainly of a literature review, data cleaning and analysis with R. I used data from the SHARE study, Europe's largest social science study.I tried to determine the main social factors of cancer via logistic regressions, as well as to detect the presence of groups in individuals with unsupervised learning(k- prototypes algorithm).",
+        details: "I worked for the CIERI research center with Thomas Salanova on the relationship between socio-economic status and cancer. The work consisted mainly of a literature review, data cleaning and analysis with R. I used data from the SHARE study, Europe's largest social science study.I tried to determine the main social factors of cancer via logistic regressions, as well as to detect the presence of groups in individuals with unsupervised learning (k-prototypes algorithm).",
     }
 ];
 

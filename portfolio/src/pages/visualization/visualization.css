@@ -24,7 +24,7 @@
 }
 
 .image-item img:hover {
-    transform: scale(1.3);
+    transform: scale(1.02);
 }
 
 .image-item p {
@@ -35,6 +35,35 @@
     font-size: 16px;
 }
 
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    max-width: 1000px;
+    max-height: 800px;
+    animation: zoom 0.6s ease;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
 
 @media screen and (max-width: 768px) {
     .image-gallery {
@@ -42,10 +71,15 @@
         gap: 20px;
         margin-bottom: 0px;
     }
-    .image-item img {
-        margin-bottom: 40px;
+    .image-item p {
+        margin-bottom: 30px;
     }
     .image-item img:hover {
     transform: scale(1);
+    }
+
+    .modal-content {
+        max-width: 90%;
+        max-height: 90%;
     }
 }

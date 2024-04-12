@@ -2,8 +2,8 @@
 
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from './pages/home/home';
-import Services from './pages/services/services';
+import Home from './pages/home/home'; 
+import Visualization from './pages/visualization/visualization';
 import Blog from './pages/blog/blog';
 
 // projects
@@ -21,13 +21,14 @@ function App() {
   return (
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/visualization" element={<Visualization />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/seuls-sous-les-pins" element={<SeulsSousLesPins />} />
         <Route path="/ai-talks" element={<AITalks />} />
         <Route path="/cieri" element={<Cieri />} />
         <Route path="/statistical-journey" element={<StatisticalJourney />} />
         <Route path="/dont-reverse-engineer-the-data" element={<ReverseEngData />} />
+
       </Routes>
   );
 }
