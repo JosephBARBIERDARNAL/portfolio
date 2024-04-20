@@ -28,7 +28,7 @@ function Visualization() {
                 </p>
                 <p style={{letterSpacing: '-0.5px'}}>
                     Here are some visualizations I've made, click on them to see them in full size!
-                </p><br/>
+                </p><br/><br/><br/>
                 <div className="image-gallery">
                     <div className="image-item">
                         <img src={`${process.env.PUBLIC_URL}/img/europe-map.png`} alt="europe map" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/europe-map.png`)}/>
@@ -38,25 +38,24 @@ function Visualization() {
                         <img src={`${process.env.PUBLIC_URL}/img/fiscal-sponsor.png`} alt="fiscal sponsorship" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/fiscal-sponsor.png`)}/>
                         <p>Top Fiscal Sponsors, made for the TidyTuesday challenge</p>
                     </div>
-                </div>
-
-                <div className="image-gallery">
                     <div className="image-item">
                         <img src={`${process.env.PUBLIC_URL}/img/energy-consumption-france.png`} alt="energy consumption" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/energy-consumption-france.png`)}/>
                         <p>Energy consumption in France</p>
                     </div>
-                    <div className="image-item">
-                        <div className="image-item">
-                            <img src={`${process.env.PUBLIC_URL}/img/confusion_matrix.png`} alt="fake news gpt" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/confusion_matrix.png`)} />
-                            <p>ChatGPT on distinguishing fake news</p>
-                        </div>
-                    </div>
                 </div>
 
                 <div className="image-gallery">
                     <div className="image-item">
+                        <img src={`${process.env.PUBLIC_URL}/img/confusion_matrix.png`} alt="fake news gpt" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/confusion_matrix.png`)} />
+                        <p>ChatGPT on distinguishing fake news</p>
+                    </div>
+                    <div className="image-item">
                         <img src={`${process.env.PUBLIC_URL}/img/wordcloud_linechart.png`} alt="movie reviews" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/wordcloud_linechart.png`)}/>
                         <p>Average movie rating per year, with wordcloud</p>
+                    </div>
+                    <div className="image-item">
+                        <img src={`${process.env.PUBLIC_URL}/img/mutliple_maps.png`} alt="multiple maps" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/mutliple_maps.png`)}/>
+                        <p>Share of explained happiness across Europe</p>
                     </div>
                 </div>
  
