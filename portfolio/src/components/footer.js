@@ -18,7 +18,7 @@ function Footer() {
                     <img src={`${process.env.PUBLIC_URL}/img/twitter.png`} alt="Twitter" className="social-logo" />
                 </Link>
                 <Spacing count={2} />
-                <p>Copyright © 2024, Joseph Barbier</p>
+                <p>Copyright © 2024, Joseph</p>
             </div>
         </footer>
     );

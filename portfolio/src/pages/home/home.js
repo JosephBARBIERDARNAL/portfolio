@@ -18,7 +18,7 @@ const Home = () => {
                 <div className="content-container">
                     <div className="text-content">
                         <p>
-                            Hi! I'm Joseph Barbier, passionate about building useful technical tools.
+                            Hi! I'm Joseph, passionate about building useful technical tools.
                         </p>
                         <p>
                             My current occupations include:
@@ -29,7 +29,7 @@ const Home = () => {
                             </ul>
                         </p>
                     </div>
-                    <img src={`${process.env.PUBLIC_URL}/img/josephcomp.png`} alt="Joseph Barbier" className="profile-image" />
+                    <img src={`${process.env.PUBLIC_URL}/img/josephcomp.png`} alt="Joseph" className="profile-image" />
                 </div>
                 
                 <Spacing count={3} />
