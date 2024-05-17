@@ -24,11 +24,12 @@ function Visualization() {
 
                 <h2>Visualizations</h2><hr />
                 <p style={{letterSpacing: '-0.5px'}}>
-                    I love of the process of turning a raw dataset into some easy-to-understand visualizations. Either for the #TidyTuesday challenge, or by searching through Kaggle datasets, I always find something that's worth spending time on.
+                    I love the process of turning a raw dataset into some easy-to-understand visualizations. Either for the #TidyTuesday challenge, or by searching through Kaggle datasets, I always find something that's worth spending time on.
                 </p>
                 <p style={{letterSpacing: '-0.5px'}}>
                     Here are some visualizations I've made, <b>click on them</b> to see them in full size!
                 </p><br/><br/><br/>
+
                 <div className="image-gallery">
                     <div className="image-item">
                         <img src={`${process.env.PUBLIC_URL}/video/outer_space.gif`} alt="outer space" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/video/outer_space.gif`)} />
@@ -37,6 +38,19 @@ function Visualization() {
                     <div className="image-item">
                         <img src={`${process.env.PUBLIC_URL}/img/fiscal-sponsor.png`} alt="fiscal sponsorship" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/fiscal-sponsor.png`)}/>
                         <p>Top Fiscal Sponsors, made for the TidyTuesday challenge</p>
+                    </div>
+                </div>
+
+                <div className="image-gallery">
+                    <div className="image-item">
+                        <img src={`${process.env.PUBLIC_URL}/video/plastic_pollution.gif`} alt="outer space" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/video/plastic_pollution.gif`)} />
+                        <p>Evolution and prediction of plastic production</p>
+                    </div>
+                </div>
+                <div className="image-gallery">
+                    <div className="image-item">
+                        <img src={`${process.env.PUBLIC_URL}/img/unemployment_linecharts.png`} alt="fiscal sponsorship" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/unemployment_linecharts.png`)}/>
+                        <p>Unemployment rates before and after the pandemic</p>
                     </div>
                 </div>
 
@@ -67,7 +81,6 @@ function Visualization() {
                         <img src={`${process.env.PUBLIC_URL}/img/europe-map.png`} alt="europe map" onClick={() => handleImageClick(`${process.env.PUBLIC_URL}/img/europe-map.png`)}/>
                         <p>Map of the European Union, based on SHARE data</p>
                     </div>
-                    <div className="image-item"></div>
                 </div>
  
                 <h2 id="services">Services</h2><hr />
