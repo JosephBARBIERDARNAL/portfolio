@@ -10,6 +10,7 @@ body {
     width: 200px;
     height: auto;
     margin-top: 15px;
+    border-radius: 30px;
 }
 
 .container {

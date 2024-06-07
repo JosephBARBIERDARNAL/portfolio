@@ -1,7 +1,7 @@
 const experiences = [
     {
         id: 5,
-        title: 'Open Source Intern',
+        title: 'Open Source Data Scientist Intern',
         period: 'March 2024 - Present',
         details: "I'm working with Yan Holtz on a variety of projects, all data-related: an R package on ecology modeling, the Python/R Graph gallery sites, and other projects under discussion.",
     },
